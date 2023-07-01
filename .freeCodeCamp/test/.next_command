@@ -46,3 +46,93 @@ echo -n f0812a98-7760-4aa6-ab60-a60592c18763
 [ -d "$HOME/bin" ]
 [ -d "$HOME/.local/bin" ]
 '/vscode/vscode-server/bin/linux-x64/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node' -p '"a936d0f3d38c" + JSON.stringify(process.env) + "a936d0f3d38c"'
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "$VSCODE_ENV_REPLACE" ]
+[ -n "$VSCODE_ENV_PREPEND" ]
+[ -n "$VSCODE_ENV_APPEND" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=$PROMPT_COMMAND
+ls --color=auto
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n 7379cef8-a116-4a0d-8959-d7e3daf104c0
+cat /proc/self/environ
+echo -n 7379cef8-a116-4a0d-8959-d7e3daf104c0
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n de6b0a58-8856-4816-a656-7f8010ea2d41
+cat /proc/self/environ
+echo -n de6b0a58-8856-4816-a656-7f8010ea2d41
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "$VSCODE_ENV_REPLACE" ]
+[ -n "$VSCODE_ENV_PREPEND" ]
+[ -n "$VSCODE_ENV_APPEND" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=$PROMPT_COMMAND
+git push
+\d
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "$VSCODE_ENV_REPLACE" ]
+[ -n "$VSCODE_ENV_PREPEND" ]
+[ -n "$VSCODE_ENV_APPEND" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=$PROMPT_COMMAND
+ls --color=auto
+ls --color=auto
+echo hello PostgresSQL
+psql --username=freecodecamp --dbname=postgres
+\d
+psql --username=freecodecamp --dbname=postgres
+\dt
+psql --username=freecodecamp --dbname=second_database
