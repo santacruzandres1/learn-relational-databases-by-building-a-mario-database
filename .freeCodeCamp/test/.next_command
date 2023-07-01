@@ -24,3 +24,25 @@ __vsc_original_prompt_command=$PROMPT_COMMAND
 ls --color=auto
 echo hello PostgreSQL
 psql --username=freecodecamp --dbname=postgres
+docker ps
+__vsc_prompt_cmd_original
+docker version
+sudo apt install gnome-terminal
+sudo apt remove docker-desktop
+sudo apt-get update
+sudo apt-get install ./docker-desktop- < version > - < arch > .deb
+sudo apt-get install ./docker-desktop-ubuntu-20.04_amd64.deb
+docker version
+docker cp
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock .freeCodeCamp/
+exit
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n f0812a98-7760-4aa6-ab60-a60592c18763
+cat /proc/self/environ
+echo -n f0812a98-7760-4aa6-ab60-a60592c18763
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+'/vscode/vscode-server/bin/linux-x64/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node' -p '"a936d0f3d38c" + JSON.stringify(process.env) + "a936d0f3d38c"'
